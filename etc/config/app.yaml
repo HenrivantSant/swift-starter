@@ -6,7 +6,7 @@ app:
     timezone: Europe/Amsterdam
 
 routing:
-    baseurl: myapp.com
+    baseurl: swift-starter
 
 graphql:
     enabled: true

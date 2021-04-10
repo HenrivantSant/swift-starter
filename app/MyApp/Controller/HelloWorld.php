@@ -21,7 +21,7 @@ class HelloWorld extends AbstractController {
      */
     #[Route(method: [RouteMethodEnum::GET], route: '/hello-world/', name: 'myapp.helloworld')]
     public function helloWorld(): JsonResponse {
-        return new JsonResponse(['message' => 'Hey legend! Get started at https://henrivantsant.github.io/swift-docs/']);
+        return new JsonResponse(['message' => 'Hey legend! Let\'s get started at https://henrivantsant.github.io/swift-docs/']);
     }
 
 }

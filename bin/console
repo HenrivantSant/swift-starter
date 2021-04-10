@@ -10,8 +10,6 @@ if (!defined('INCLUDE_DIR')) {
 }
 
 require INCLUDE_DIR . '/vendor/autoload.php';
-require_once INCLUDE_DIR . '/vendor/henrivantsant/swift/src/Console/CLIApplication.php';
-require_once INCLUDE_DIR . '/vendor/henrivantsant/swift/src/Application/Bootstrap\Autoloading\Autoloader.php';
 
 use Swift\Console\CLIApplication;
 

@@ -2,8 +2,6 @@
 
 require_once '../vendor/autoload.php';
 
-require_once '../vendor/henrivantsant/swift/src/Application/Application.php';
-
 use Swift\Application\Application;
 
 $app = new Application();

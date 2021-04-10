@@ -1,4 +1,32 @@
 {
+    "name": "henrivantsant/swift-starter",
+    "type": "library",
+    "description": "Easy starter project for Swift",
+    "keywords": [
+        "api",
+        "framework",
+        "symfony",
+        "simple",
+        "graphql",
+        "swift",
+        "php",
+        "php8",
+        "rest",
+        "rest-api",
+        "graphql-api",
+        "graphql-server",
+        "cli-app"
+    ],
+    "homepage": "https://github.com/HenrivantSant/swift-starter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henri van t Sant",
+            "email": "henrivantsant@hotmail.nl",
+            "homepage": "https://github.com/HenrivantSant",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "henrivantsant/swift": "^0.0.3"
     }

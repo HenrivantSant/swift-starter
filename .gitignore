@@ -1,11 +1,19 @@
+## Php Storm
 .idea
+
+## Configuration
 config.yaml
 !/*/config.yaml
+!/*/*/config.yaml
+/etc/*
+!/etc/config*
+
+## Dependencies
 composer.lock
 composer.phar
+/vendor/*
+
+## Misc
 /pub/*
 !/pub/index.php
 /var/*
-/vendor/*
-/etc/*
-!/etc/config*

@@ -1,12 +1,8 @@
 #Getting started
 
+## Install
 ```shell
-composer create-project henrivantsant/swift-starter
-```
-
-## Install dependencies
-```shell
-composer install
+composer create-project henrivantsant/swift-starter project_name
 ```
 
 ## Init database

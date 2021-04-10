@@ -1,0 +1,18 @@
+app:
+    name: MyApp
+    mode: develop
+    debug: true
+    allow_cors: true
+    timezone: Europe/Amsterdam
+
+routing:
+    baseurl: myapp.com
+
+graphql:
+    enabled: true
+    enable_introspection: true
+
+logging:
+    enable_mail: false
+    logging_mail_from: mail@myapp.com
+    logging_mail_to: mail@myapp.com

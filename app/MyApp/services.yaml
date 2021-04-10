@@ -1,0 +1,11 @@
+parameters:
+# ...
+
+services:
+  _defaults:
+    autowire: false
+    autoconfigure: true
+    public: true
+
+  MyApp\:
+    resource: 'app/MyApp/*'

@@ -1,0 +1,11 @@
+.idea
+config.yaml
+!/*/config.yaml
+composer.lock
+composer.phar
+/pub/*
+!/pub/index.php
+/var/*
+/vendor/*
+/etc/*
+!/etc/config*

@@ -1,5 +1,9 @@
 #Getting started
 
+```shell
+composer create-project henrivantsant/swift-starter
+```
+
 ## Install dependencies
 ```shell
 composer install

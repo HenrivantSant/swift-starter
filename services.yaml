@@ -1,9 +1,6 @@
 imports:
   - { resource: vendor/henrivantsant/swift/src/services.yaml }
 
-parameters:
-  # ...
-
 services:
   _defaults:
     autowire: false

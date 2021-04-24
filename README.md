@@ -2,7 +2,7 @@
 
 ## Install
 ```shell
-composer create-project henrivantsant/swift-starter project_name
+composer create-project swift-api/swift-starter project_name
 ```
 
 ## Init database

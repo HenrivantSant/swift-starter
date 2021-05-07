@@ -1,5 +1,5 @@
 imports:
-  - { resource: vendor/henrivantsant/swift/src/services.yaml }
+  - { resource: vendor/swift-api/swift/src/services.yaml}
 
 services:
   _defaults:

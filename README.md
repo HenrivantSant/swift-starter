@@ -1,6 +1,7 @@
 #Getting started
 
 ## Install
+https://packagist.org/packages/swift-api/swift-starter
 ```shell
 composer create-project swift-api/swift-starter project_name
 ```

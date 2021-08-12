@@ -30,6 +30,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "swift-api/swift": "^0.0.9"
+        "swift-api/swift": "^0.1.0"
     }
 }

@@ -1,4 +1,4 @@
-php_flag session.auto_start 0
+#php_flag session.auto_start 0
 
 FallbackResource /pub/index.php
 

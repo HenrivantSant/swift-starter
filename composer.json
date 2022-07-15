@@ -30,6 +30,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "swift-api/swift": "^0.1.3"
+        "swift-api/swift": "v0.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
     }
 }

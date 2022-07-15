@@ -1,5 +1,5 @@
 imports:
-  - { resource: vendor/swift-api/swift/src/services.yaml}
+ # ...
 
 services:
   _defaults:
@@ -7,5 +7,5 @@ services:
     autoconfigure: true
     public: true
 
-  MyApp\:
+  App\MyApp\:
     resource: 'app/MyApp/*'

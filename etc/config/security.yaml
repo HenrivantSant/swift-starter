@@ -1,13 +1,15 @@
 enable_firewalls: true
 firewalls:
-    main: { login_throttling: { max_attempts: 5 } }
+    main: { login_throttling: { max_attempts: 5 }, token: { validity: 24 } }
 role_hierarchy:
-    ROLE_GUEST: null
+    ROLE_GUEST: {  }
     ROLE_USER: [ROLE_TESTING, ROLE_TESTING2]
-    ROLE_CLIENT: null
-    ROLE_ADMIN: [ROLE_SUPER_ADMIN]
+    ROLE_CLIENT: [ROLE_USERS_LIST]
+    ROLE_ADMIN: [ROLE_USERS_LIST, ROLE_SUPER_ADMIN]
+    ROLE_SUPER_ADMIN: [ROLE_ADMIN]
 access_decision_manager:
     strategy: Swift\Security\Authorization\Strategy\AffirmativeDecisionStrategy
     allow_if_all_abstain: false
 access_control:
     - { path: ^/users, ip: [84.31.60.101, 84.31.60.193], roles: [IS_AUTHENTICATED] }
+graphql_access_control: {  }

@@ -1,0 +1,15 @@
+runtime:
+    enabled: true
+coroutines:
+    enabled: true
+    run_in_background: true
+cron:
+    enabled: true
+    run_in_background: true
+file_watcher:
+    enabled: true
+    watch: [app, src, etc/config]
+    extensions: [php, yaml]
+    ignore: [tests]
+websocket:
+    port: 8000

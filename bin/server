@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#
+# This file is part of the Swift Framework
+#
+# (c) Henri van 't Sant <hello@henrivantsant.dev>
+#
+# For the full copyright and license information, please view the LICENSE file that was distributed with this source code.
+#
+
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+
+exec "$(dirname "$SCRIPT_DIR")"/vendor/swift-api/swift/src/Runtime/Server/server -- $@

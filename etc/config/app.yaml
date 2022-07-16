@@ -4,14 +4,11 @@ app:
     debug: true
     allow_cors: true
     timezone: Europe/Amsterdam
-
 routing:
     baseurl: swift-starter
-
 graphql:
     enabled: true
     enable_introspection: true
-
 logging:
     enable_mail: false
     logging_mail_from: mail@myapp.com

@@ -30,7 +30,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "swift-api/swift": "v0.2"
+        "swift-api/swift": "v0.2.04"
     },
     "config": {
         "allow-plugins": {

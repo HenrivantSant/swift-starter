@@ -11,7 +11,7 @@
 
 require dirname(__DIR__, 1) . '/vendor/autoload.php';
 
-use Swift\Console\CLIApplication;
+use Swift\Console\CliApplication;
 
-$CLIApplication = new CLIApplication();
-$CLIApplication->run();
+$cliApplication = new CliApplication();
+$cliApplication->run();

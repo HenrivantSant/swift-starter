@@ -17,7 +17,7 @@
         "graphql-server",
         "cli-app"
     ],
-    "homepage": "https://github.com/HenrivantSant/swift-starter",
+    "homepage": "https://github.com/SwiftAPI/swift-starter",
     "license": "MIT",
     "authors": [
         {
@@ -30,7 +30,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "swift-api/swift": "v0.2.04"
+        "swift-api/swift": "v0.2.08"
     },
     "config": {
         "allow-plugins": {

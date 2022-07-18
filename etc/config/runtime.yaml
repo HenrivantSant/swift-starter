@@ -8,7 +8,7 @@ cron:
     run_in_background: true
 file_watcher:
     enabled: true
-    watch: [app, src, etc/config]
+    watch: [services.yaml, app, etc/config]
     extensions: [php, yaml]
     ignore: [tests]
 websocket:

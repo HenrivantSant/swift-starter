@@ -2,14 +2,12 @@
 .idea
 
 ## Configuration
-config.yaml
 !/*/config.yaml
 !/*/*/config.yaml
 /etc/*
 !/etc/config*
 
 ## Dependencies
-composer.lock
 composer.phar
 /vendor/*
 

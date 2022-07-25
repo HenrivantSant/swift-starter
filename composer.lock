@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "139108b5aca09f16884225b7099accef",
+    "content-hash": "0b0fd209501dd3334a43231a02d2209b",
     "packages": [
         {
             "name": "alecrabbit/php-cli-snake",
@@ -4853,16 +4853,16 @@
         },
         {
             "name": "swift-api/swift",
-            "version": "v0.2.11",
+            "version": "v0.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SwiftAPI/swift.git",
-                "reference": "9d5b500e544eb82f51fbed935b08ee9f3d68e303"
+                "reference": "94715d0d4a588b1cc8bd55d0f4697ddfa35c5b99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SwiftAPI/swift/zipball/9d5b500e544eb82f51fbed935b08ee9f3d68e303",
-                "reference": "9d5b500e544eb82f51fbed935b08ee9f3d68e303",
+                "url": "https://api.github.com/repos/SwiftAPI/swift/zipball/94715d0d4a588b1cc8bd55d0f4697ddfa35c5b99",
+                "reference": "94715d0d4a588b1cc8bd55d0f4697ddfa35c5b99",
                 "shasum": ""
             },
             "require": {
@@ -4940,9 +4940,9 @@
             ],
             "support": {
                 "issues": "https://github.com/SwiftAPI/swift/issues",
-                "source": "https://github.com/SwiftAPI/swift/tree/v0.2.11"
+                "source": "https://github.com/SwiftAPI/swift/tree/v0.2.12"
             },
-            "time": "2022-07-23T20:33:08+00:00"
+            "time": "2022-07-25T19:40:01+00:00"
         },
         {
             "name": "symfony/cache",

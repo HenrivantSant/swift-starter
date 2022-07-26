@@ -1,4 +1,10 @@
-#Getting started
+[![CodeFactor](https://www.codefactor.io/repository/github/swiftapi/swift-starter/badge)](https://www.codefactor.io/repository/github/swiftapi/swift-starter)
+[![Version](http://poser.pugx.org/swift-api/swift-starter/version)](https://packagist.org/packages/swift-api/swift-starter)
+[![Latest Unstable Version](http://poser.pugx.org/swift-api/swift-starter/v/unstable)](https://packagist.org/packages/swift-api/swift-starter)
+[![PHP Version Require](http://poser.pugx.org/swift-api/swift-starter/require/php)](https://packagist.org/packages/swift-api/swift-starter)
+
+# Getting started
+
 
 ## Install
 https://packagist.org/packages/swift-api/swift-starter

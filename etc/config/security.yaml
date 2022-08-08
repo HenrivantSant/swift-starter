@@ -11,5 +11,13 @@ access_decision_manager:
     strategy: Swift\Security\Authorization\Strategy\AffirmativeDecisionStrategy
     allow_if_all_abstain: false
 access_control:
-    - { path: ^/users, ip: [84.31.60.101, 84.31.60.193], roles: [IS_AUTHENTICATED] }
+    - { path: ^/foo, ip: [84.31.60.101, 84.31.60.193], roles: [IS_AUTHENTICATED] }
 graphql_access_control: {  }
+rate_limit:
+    enabled: true
+    enable_default: true
+    default_limit: 30
+    default_period: 60
+    default_strategy: sliding_window
+    rates:
+        - { name: foo_bar, strategy: sliding_window, limit: 20, period: 60 }

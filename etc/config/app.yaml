@@ -4,11 +4,14 @@ app:
     debug: true
     allow_cors: true
     timezone: Europe/Amsterdam
+    log_requests: true
 routing:
     baseurl: swift-starter
 graphql:
     enabled: true
     enable_introspection: true
+    max_query_complexity: 120
+    max_query_depth: 10
 logging:
     enable_mail: false
     logging_mail_from: mail@myapp.com

@@ -12,5 +12,5 @@ require_once dirname( __DIR__ ) . '/vendor/autoload.php';
 
 use Swift\Application\Application;
 
-$app = new Application();
+$app = Application::create();
 $app->run();

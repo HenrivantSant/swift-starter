@@ -2,6 +2,7 @@
     "name": "swift-api/swift-starter",
     "type": "library",
     "description": "Easy starter project for Swift",
+    "version": "v0.2.18",
     "keywords": [
         "api",
         "framework",
